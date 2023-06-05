@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1720.0, -534.0, 1383.0, 911.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 314.0, 533.0, 153.0, 60.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 314.0, 533.0, 154.0, 60.0 ],
 					"text" : "bang each toggle in order, delay for random delay time above before banging again to toggle off"
 				}
 
@@ -59,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 448.0, 292.0, 153.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "clear when reset button is clicked, reset order to default"
 				}
 
@@ -71,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 160.5, 160.0, 67.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "sleep time"
 				}
 
@@ -150,7 +147,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 415.5, 232.0, 153.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "bang urn object 5 times (4 times to output values, once to reset)"
 				}
 
@@ -162,7 +158,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.0, 30.0, 150.0, 74.0 ],
+					"patching_rect" : [ 378.0, 30.0, 153.0, 74.0 ],
 					"text" : "at the end of each round, randomise the order and speed if random number from 0 to 1000 is less than 300"
 				}
 
@@ -255,7 +251,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 88.5, 635.0, 52.0, 22.0 ],
+					"patching_rect" : [ 88.5, 640.0, 52.0, 22.0 ],
 					"text" : "togedge"
 				}
 
@@ -507,7 +503,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 980.0, 191.0, 50.0, 22.0 ],
-					"text" : "8080"
+					"text" : "7460"
 				}
 
 			}
@@ -973,7 +969,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 157.0, 191.0, 50.0, 22.0 ],
-					"text" : "6840"
+					"text" : "6280"
 				}
 
 			}
